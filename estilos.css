@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+#menu a {
+	font-size: 18px;
+	font-weight: bold;
+	color: #3f3f3f;
+}
+
+#menu button {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.carousel-inner{
+	max-height: 45rem;
+}
+
+@media (max-width:768px) {
+	#intro {
+		width: 90% !important;	
+	}
+}
+
+
+.servicio-fila{
+	width: 100% !important;
+	text-align: center;
+}
+
+@media(max-width576px){
+	.icono-wrap{
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+}
+
+.formulario{
+	display: block;
+}
